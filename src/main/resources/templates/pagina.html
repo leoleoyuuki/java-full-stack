@@ -1,0 +1,17 @@
+<!DOCTYPE html SYSTEM "http://www.thymeleaf.org/dtd/xhtml1-strict-thymeleaf-spring4-4.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="UTF-8">
+<title>Página Teste</title>
+</head>
+<body>
+
+	<table>
+		<tr><td>Atributo</td> <td> <span th:text="${var.id}"></span></td></tr>
+		<tr><td>ID</td><td><span th:text="${var.rm}"></span></td></tr>
+		<tr><td>RM</td><td><span th:text="${var.status}"></span></td></tr>
+		<tr><td>Status</td><td><span th:text="${var.nivel}"></span></td></tr>
+	</table>
+
+</body>
+</html>
